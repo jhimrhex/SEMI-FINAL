@@ -6,10 +6,10 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return (
-        "Fullname: Jhim Rhex M. Lumanao<br>"
+        "Fullname: Jhim Rhex Mejos Lumanao<br>"
         "Section: BSIT III-A 2nd LAB<br>"
-        "Subject: System Integration and Architecture<br>"
-        "Exam: Semi-Final Exam"
+        "Subject: System Integration and Architecture 1<br>"
+        "Exam: Semi-Final"
     )
 
 if __name__ == '__main__':
